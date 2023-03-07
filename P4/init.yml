@@ -1,0 +1,89 @@
+archive: data6.zip
+checker: standard
+test_cases:
+- batched:
+  - generator_args:
+    - '1'
+    in: data/sgsopc1p5.1.in
+    out: data/sgsopc1p5.1.out
+  - generator_args:
+    - '2'
+    in: data/sgsopc1p5.2.in
+    out: data/sgsopc1p5.2.out
+  - generator_args:
+    - '3'
+    in: data/sgsopc1p5.3.in
+    out: data/sgsopc1p5.3.out
+  - generator_args:
+    - '4'
+    in: data/sgsopc1p5.4.in
+    out: data/sgsopc1p5.4.out
+  - generator_args:
+    - '5'
+    in: data/sgsopc1p5.5.in
+    out: data/sgsopc1p5.5.out
+  - generator_args:
+    - '6'
+    in: data/sgsopc1p5.6.in
+    out: data/sgsopc1p5.6.out
+  - generator_args:
+    - '7'
+    in: data/sgsopc1p5.7.in
+    out: data/sgsopc1p5.7.out
+  - generator_args:
+    - '8'
+    in: data/sgsopc1p5.8.in
+    out: data/sgsopc1p5.8.out
+  - generator_args:
+    - '9'
+    in: data/sgsopc1p5.9.in
+    out: data/sgsopc1p5.9.out
+  - generator_args:
+    - '10'
+    in: data/sgsopc1p5.10.in
+    out: data/sgsopc1p5.10.out
+  - generator_args:
+    - '11'
+    in: data/sgsopc1p5.11.in
+    out: data/sgsopc1p5.11.out
+  - in: data/sgsopc1p5.12.in
+    out: data/sgsopc1p5.12.out
+  - in: data/sgsopc1p5.13.in
+    out: data/sgsopc1p5.13.out
+  - in: data/sgsopc1p5.14.in
+    out: data/sgsopc1p5.14.out
+  - in: data/sgsopc1p5.15.in
+    out: data/sgsopc1p5.15.out
+  points: 15
+- batched:
+  - in: data/sgsopc1p5.19.in
+    out: data/sgsopc1p5.19.out
+  - in: data/sgsopc1p5.17.in
+    out: data/sgsopc1p5.17.out
+  - in: data/sgsopc1p5.18.in
+    out: data/sgsopc1p5.18.out
+  - in: data/sgsopc1p5.16.in
+    out: data/sgsopc1p5.16.out
+  - in: data/sgsopc1p5.20.in
+    out: data/sgsopc1p5.20.out
+  - in: data/sgsopc1p5.21.in
+    out: data/sgsopc1p5.21.out
+  - in: data/sgsopc1p5.22.in
+    out: data/sgsopc1p5.22.out
+  - in: data/sgsopc1p5.23.in
+    out: data/sgsopc1p5.23.out
+  - in: data/sgsopc1p5.24.in
+    out: data/sgsopc1p5.24.out
+  - in: data/sgsopc1p5.25.in
+    out: data/sgsopc1p5.25.out
+  - in: data/sgsopc1p5.26.in
+    out: data/sgsopc1p5.26.out
+  - in: data/sgsopc1p5.27.in
+    out: data/sgsopc1p5.27.out
+  - in: data/sgsopc1p5.28.in
+    out: data/sgsopc1p5.28.out
+  - in: data/sgsopc1p5.29.in
+    out: data/sgsopc1p5.29.out
+  - in: data/sgsopc1p5.30.in
+    out: data/sgsopc1p5.30.out
+  points: 85
