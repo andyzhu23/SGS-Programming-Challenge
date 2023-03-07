@@ -1,0 +1,78 @@
+generator: generator.cpp
+interactive:
+  files: interactor.cpp
+  lang: CPP20
+  memory_limit: 2097152
+  compiler_time_limit: 20
+  cached: true
+  feedback: true
+  type: coci
+
+output_limit_length: 10000000
+output_prefix_length: 0
+
+test_cases:
+- batched:
+  - generator_args:
+    - '1'
+  - generator_args:
+    - '2'
+  - generator_args:
+    - '3'
+  - generator_args:
+    - '4'
+  - generator_args:
+    - '5'
+  - generator_args:
+    - '6'
+  - generator_args:
+    - '7'
+  - generator_args:
+    - '8'
+  - generator_args:
+    - '9'
+  - generator_args:
+    - '10'
+  - generator_args:
+    - '11'
+  - generator_args:
+    - '12'
+  - generator_args:
+    - '13'
+  - generator_args:
+    - '14'
+  - generator_args:
+    - '15'
+  points: 10
+- batched:
+  - generator_args:
+    - '16'
+  - generator_args:
+    - '17'
+  - generator_args:
+    - '18'
+  - generator_args:
+    - '19'
+  - generator_args:
+    - '20'
+  - generator_args:
+    - '21'
+  - generator_args:
+    - '22'
+  - generator_args:
+    - '23'
+  - generator_args:
+    - '24'
+  - generator_args:
+    - '25'
+  - generator_args:
+    - '26'
+  - generator_args:
+    - '27'
+  - generator_args:
+    - '28'
+  - generator_args:
+    - '29'
+  - generator_args:
+    - '30'
+  points: 90
