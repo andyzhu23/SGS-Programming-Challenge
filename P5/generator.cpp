@@ -81,7 +81,6 @@ void order(int u = 0) {
 
 int main(int argc, char** argv) {
     int S = atoi(argv[1]);
-    // freopen("in.txt", "w", stdout);
     cin.tie(0)->ios::sync_with_stdio(0);
     n = 1e5;
     if(S == 16 || S == 31) n = 2;
