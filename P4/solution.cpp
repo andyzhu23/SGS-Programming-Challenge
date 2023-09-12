@@ -246,7 +246,6 @@ inline void solve(){
         add(c ? a + m : a, b, -d, INF);
     }
     dinic();
-    // for(int i = 3;i<=tot;i+=2) cout<<i<<' '<<e[i].v<<' '<<e[i].u<<' '<<e[i].w<<' '<<e[i].f<<'\n';
     print(ans);
 }
 
